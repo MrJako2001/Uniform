@@ -1,0 +1,25 @@
+{
+  "name": "uniform",
+  "version": "1.0.0",
+  "description": "Free and Open Source Blogger template",
+  "keywords": [
+    "blogger"
+  ],
+  "homepage": "",
+  "bugs": {},
+  "license": "MIT",
+  "author": {
+    "name": "MrJaco"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "autoprefixer": "^10.4.14",
+    "browserslist": "^4.21.10",
+    "chai": "^4.3.7",
+    "cheerio": "^1.0.0-rc.12",
+    "chokidar": "^3.5.3",
+    "rollup": "^3.28.0"
+  }
+}

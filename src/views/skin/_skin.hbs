@@ -1,0 +1,31 @@
+{{!-- 
+b.skin variables
+ --}}
+<b:if cond="!data:view.isLayoutMode">
+    <b:skin>
+        <![CDATA[
+
+            /*********************************************************
+             * Name: Uniform - Free and Open-source Blogger template *
+             * Version: 1.0.0                                        *
+             * Author: MrJaco                                        *
+             * License: MIT                                          *
+             * Copyright: 2023 MrJaco. All rights reserved.          *
+             *********************************************************/
+
+            /* === STYLES === */
+            {{asset "dist/css/main.min.css"}}
+
+        ]]>    
+    </b:skin>
+<b:else/>
+    <b:template-skin>
+        <![CDATA[
+
+            /* === ADMIN STYLES === */
+
+            {{asset "dist/css/admin.min.css"}}
+            
+        ]]>
+    </b:template-skin>
+</b:if>

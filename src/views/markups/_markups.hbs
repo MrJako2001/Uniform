@@ -1,0 +1,15 @@
+{{!-- Default markups for all widgets --}}
+
+<b:defaultmarkups>
+    {{!-- Clean all inclusions --}}
+    {{#each defaultIncludables}}
+    <b:defaultmarkup type='{{@key}}'>
+        {{#each this}}
+        <b:includable id="{{this}}"/>
+        {{/each}}
+    </b:defaultmarkup>
+    {{/each}}
+    <b:defaultmarkup type='Common'>
+        {{> head}}
+    </b:defaultmarkup>
+</b:defaultmarkups>

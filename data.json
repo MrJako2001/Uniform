@@ -1,0 +1,131 @@
+{
+    "root": {
+        "b:defaultwidgetversion": "2",
+        "b:layoutsVersion": "3"
+    },
+    "defaultIncludables": {
+        "All": [
+            "main",
+            "content"
+        ],
+        "AdSense,Blog": [
+            "defaultAdUnit"
+        ],
+        "Blog,FeaturedPost,PopularPosts": [
+            "blogThisShare",
+            "bylineByName",
+            "bylineRegion",
+            "commentsLink",
+            "commentsLinkIframe",
+            "emailPostIcon",
+            "facebookShare",
+            "footerByLines",
+            "googlePlusShare",
+            "headerByLine",
+            "linkShare",
+            "otherSharingButton",
+            "platformShare",
+            "postAuthor",
+            "postCommentsLink",
+            "postFooter",
+            "postFooterJumpLink",
+            "postJumpLink",
+            "postLabels",
+            "postLocation",
+            "postReactions",
+            "postShareButtons",
+            "postTimestamp",
+            "sharingButton",
+            "sharingButtonContent",
+            "sharingButtons",
+            "sharingButtonsMenu",
+            "sharingPlatformIcon",
+            "snippetedPostByLine",
+            "snippetedPostByThumbnail"
+        ],
+        "FeaturedPost,PopularPosts": [
+            "snippetedPostContent",
+            "snippetedPosts",
+            "snippetedPostTitle"
+        ],
+        "Blog": [
+            "aboutPostAuthor",
+            "addComments",
+            "commentAuthorAvatar",
+            "commentDeleteIcon",
+            "commentForm",
+            "commentFormIframeSrc",
+            "commentItem",
+            "commentList",
+            "commentPicker",
+            "comments",
+            "commentsTitle",
+            "feedLinks",
+            "feedLinksBody",
+            "homePageLink",
+            "iframeComments",
+            "inlineAd",
+            "nextPageLink",
+            "post",
+            "postBody",
+            "postBodySnippet",
+            "postCommentsAndAd",
+            "postFooter",
+            "postFooterAuthorProfile",
+            "postHeader",
+            "postMeta",
+            "postMetadataJSONImage",
+            "postMetadataJSONPublisher",
+            "postPagination",
+            "postTitle",
+            "previousPageLink",
+            "threadedCommentForm",
+            "threadedCommentJs",
+            "threadedComment"
+        ],
+        "BlogArchive": [
+            "flat",
+            "hierarchy",
+            "interval",
+            "posts"
+        ],
+        "BlogSearch": [
+            "searchForm",
+            "searchSubmit"
+        ],
+        "Header": [
+            "behindImageStyle",
+            "description",
+            "image",
+            "title"
+        ],
+        "Label": [
+            "cloud",
+            "list"
+        ],
+        "PageList": [
+            "overflowButton",
+            "overflowPageList",
+            "pageLink",
+            "pageList"
+        ],
+        "Profile": [
+            "authorProfileImage",
+            "profileImage",
+            "teamProfile",
+            "teamProfileLink",
+            "userGoogleProfile",
+            "userLocation",
+            "userProfile",
+            "userProfileData",
+            "userProfileImage",
+            "userProfileInfo",
+            "userProfileLink",
+            "userProfileText",
+            "viewProfileLink"
+        ],
+        "Subscribe": [
+            "feeds"
+        ]
+    }
+}

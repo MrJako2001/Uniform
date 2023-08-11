@@ -1,9 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html lang="en">
+<html b:css="false" b:js="true" {{attr root}}>
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><data:view.title.escaped></title>
+    <b:include data='blog' name='all-head-content'/>
+    <b:include name='uniform:head'/>
+    {{!-- Skin content --}}
+    {{> skin}}
+    {{!-- Default markups content --}}
+    {{> defaultmarkups}}
 </head>
 <body>
     
